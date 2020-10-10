@@ -7,7 +7,7 @@
   margin: 0;
   position: relative;
   overflow: hidden;
-  color: #fff;
+  color: #1b262c;
 }
 
 .header_bg{
@@ -15,14 +15,14 @@
   display: flex;
   position: absolute;
   margin: 0;
-  opacity: 0.4;
+  opacity: 1;
 }
 
 .background_color{
   position: relative;
   z-index: 3;
-  background-color: #16213e;
-  opacity: 0.8;
+  background-color: #bbe1fa;
+  opacity: 0.9;
   padding-bottom:1%;
 }
 
@@ -59,13 +59,14 @@ nav{
 }
 
 .nav-link{
-  color:#fff;
+  color:#f57170;
   font-weight: 500;
 }
 
 .sticky{
-  background-color: #16213e;
+  background-color: #0f4c75;
   position: fixed;
+  opacity: 1;
   top: 0;
   width: 100%;
 }
@@ -83,8 +84,8 @@ nav{
 }
 
 .nav-pills .nav-item .nav-link{
-  background-color: #0f3057;
-  color: #fff;
+  background-color: #0f4c75;
+  color: #1b262c;
 }
 .welcome_heading{
   margin: 8.5% 0 0;
@@ -97,7 +98,7 @@ nav{
   border-top-style: solid;
   border-width:2px;
   width:20%;
-  border-color: #ec0101;
+  border-color: #0f3057;
 }
 
 .heading_subtitle{
@@ -107,7 +108,7 @@ nav{
 
 @media (max-width:991px){
   .cintamani-logo{
-    margin: 5% auto auto 0;
+    margin: 2% auto auto 0;
     width:50%;
   }
 
@@ -153,7 +154,7 @@ body{
 /* About Us Section */
 
 .light_colored_section{
-  background-color: #f1f3f8;
+  background-color: #ecf4f3;
 }
 
 section .container-fluid{
@@ -165,7 +166,7 @@ section .container-fluid{
 }
 
 .about_us_title{
-  color: #B81010;
+  color: #00587a;
   font-size: 1.6rem;
   margin-bottom: 3%;
 }
@@ -181,8 +182,8 @@ section .container-fluid{
 }
 
 .expert-manish_jain_pic{
-  padding: 10%;
-  width:100%;
+  padding: 10px;
+  width:80%;
 }
 
 .about_us_data{
@@ -191,18 +192,19 @@ section .container-fluid{
 }
 
 a{
-  color: #de4463;
-  font-size: 1.1rem;
+  color: #fe7171;
+  font-weight: 500;
+  font-size: 1.2rem;
 }
 
 a:hover{
   text-decoration: none;
-  color: #de4463;
-  font-size: 1.20rem;
+  color: #ff414d;
+  font-size: 1.3rem;
 }
 
 .nav-item button a{
-  color: #000;
+  color: #fff;
 }
 
 .body_ruler{
@@ -211,7 +213,7 @@ a:hover{
   border-top-style: solid;
   border-width:2px;
   width:10%;
-  border-color: #de4463;
+  border-color: #ff414d;
 }
 
 
@@ -221,7 +223,7 @@ section .container-fluid{
 }
 
 .dark_colored_section{
-  background-color: #393b44;
+  background-color: #133b5c;
   color: #f1f3f8;
 }
 
@@ -299,7 +301,7 @@ padding:5%;
 
 /* Primary Footer Content || Secondary Dark Colored Section */
 .primary-footer{
-  background-color: #222831;
+  background-color: #1d2d50;
   color: #fff;
   font-weight: 100;
 }
@@ -317,6 +319,7 @@ padding:5%;
 .site-identity-column{
   margin-right: 3%;
   padding-right: 2%;
+  margin-bottom: 30px;
 }
 
 .footer-column{
@@ -346,6 +349,9 @@ padding:5%;
   font-size: 1.5rem;
 }
 
+.our_services_col{
+  margin-left: 20%;
+}
 /* Secondary Footer || Social Links || Dark Colored Section */
 .social_content{
   padding:2% 5% 1%;
