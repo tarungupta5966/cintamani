@@ -146,7 +146,7 @@ nav{
 body{
   font-family: "Roboto";
   font-weight: 500;
-  font-size: 1rem;
+  font-size: 1.1rem;
   text-align: center;
 }
 
@@ -179,6 +179,15 @@ section .container-fluid{
 .about_us_content{
   letter-spacing: 1px;
   line-height: 1.6;
+  font-size: 1.4rem;
+}
+
+.about_us_col2{
+  align-items: center;
+}
+
+ul li{
+  font-size: 1.3rem;
 }
 
 .expert-manish_jain_pic{
@@ -234,6 +243,7 @@ section .container-fluid{
   background-color: #f1f3f8;
   margin-bottom: 20%;
   height:400px;
+  font-size: 1.1rem;
 }
 
 @media (max-width:768px) {
